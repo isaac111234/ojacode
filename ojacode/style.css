@@ -1,0 +1,857 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+   
+}
+body{
+   font-family: sans-serif;
+   background-color:white;
+}
+.topnav{
+    display: none;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    margin: auto;
+    background-color:rgb(43, 141, 230) ;
+    position: fixed;
+    z-index: 1;
+}
+.inner-header{
+    width: 1200px;
+    height: 100%;
+    display: block;
+    margin:  auto;
+    display: flex;
+}
+.logo{
+    height: 50%;
+    display: table;
+    float: left;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-top: 15px;
+    width:13%;
+    padding-left: 5px;
+    
+}
+.logo h1{
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+    font-size:32px;
+    font-weight:100 ;
+}
+.logo h1 span{
+    font-weight:800;
+    color: rgb(141, 53, 167);
+}
+.navigation{
+    float: right;
+    height: 100%;
+    margin-left: 100px;
+}
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
+.navigation a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+} 
+.navigation a li:hover{
+    color: rgb(108, 31, 103);
+}
+.button-1{
+   border: none;
+    float: left;
+    color:white;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+    vertical-align: middle;
+   background-color: transparent;
+}
+.button-1:hover{
+    color: black;
+} 
+ .but{ 
+    display: table;
+    float: right;
+    height: 20%;
+    width: 30%;
+    margin-top: 14px;
+    border-radius: 5px;
+    padding: 10px;
+    padding-right: 100px;
+    margin:  auto;
+}
+.but button{
+    padding: 7px 20px;
+}
+.text{
+   border:2px solid white;
+   border-radius: 10px;
+    color: white;
+    height: 40%;
+    width: 9%;
+    margin-top: 25px;
+    display: table;
+    border-radius: 5px;
+    margin: auto;
+}
+.text:hover{
+    background-color: rgb(121, 41, 112);
+    color: white;
+}
+.text p{
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0px 20px;
+}
+.container{
+   background-image: linear-gradient( to bottom, rgba(43, 141, 230), rgb(126, 128,239) );
+   padding: 100px 20px 200px 20px;
+   width: 100%;
+}
+.container h1{
+   text-align: center;
+   color: white;
+   font-size: 40px;
+   font-weight: 800;
+   width: 50%;
+   margin: 0 auto;
+   padding-top: 50px;
+}
+.container h3{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 50;
+    width: 50%;
+    margin: 0 auto;
+    padding-top:20px;
+}
+.drop{
+    width: 40% ;
+    margin: 0 auto;
+    padding-left: 110px;
+    padding-top: 50px;
+}
+.drop1{
+    padding: 10px;
+    width: 40%;
+   border-radius: 10px;
+   border: none;
+}
+.drop2{
+    padding: 10px;
+    width: 40%;
+   background-color: transparent;
+   border: 1px solid white;
+   border-radius: 10px;
+}
+.drop2:hover{
+    background-color: black;
+    color: white;
+}
+.circle{
+    background-image: url('/dash.gif');
+    width: 50%;
+    height: 500px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size:cover;
+    left: 300px;
+    bottom: 70px;
+}
+.section2{
+    padding: 100px 20px 100px 20px;
+    width: 100%;
+    background-color:white;
+}
+.section2 h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 30px;
+    margin-bottom: 40px;
+}
+.image{
+    background-image: url('/inca-info_ginqo7.png');
+    width: 50%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.content{
+    width: 90%;
+    height: 500px;  
+    display: flex;
+    margin: 0 auto;
+    line-height: 1.7em;
+}
+.dove h5 {
+    color: rgb(194, 189, 189);
+}
+.dove h2{
+    padding-top: 10px;
+}
+.dove{
+    width:45%;
+    height: 300px;
+}
+.dove p{
+    padding-top: 20px;
+}
+.icon{
+    width: 60%;
+    height: 70px;
+    border: 2px solid black;
+}
+.form{
+    background-image: url('/');
+}
+.card{
+   width: 70px;
+   padding-top: 30px;
+}
+.card1{
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: transparent;
+    border:1px solid purple;
+}
+.card1:hover{
+    background-color: rgb(129, 30, 129);
+    color: white;
+}
+.section3{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(252, 252, 254);
+}
+.window{
+    width: 90%;
+    height: 500px;  
+    display: flex;
+    margin: 0 auto;
+}
+.window1{
+    background-image: url('/bard.png');
+    width: 50%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: 80% 80%;
+}
+.window2{
+    border: 2px solid black;
+    width: 30%;
+}
+.board{
+   width: 50%;
+   height: 300px;
+   padding-left: 50px;
+}
+.board h5 {
+    color: rgb(194, 189, 189);
+}
+.board h2{
+    padding-top: 10px;
+}
+.board p{
+    padding-top: 20px;
+}
+.image2{
+    background-image: url('/dove.jpg');
+    width: 50%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size:cover;
+   margin: auto;
+}
+.inter{
+    background-image: url('/inter.jpg');
+    width: 50%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size:cover;
+   margin: auto;
+}
+.top{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+}
+.top h1{
+text-align: center;
+font-size: 40px;
+font-weight: 700;
+width: 70%;
+margin: 0 auto;
+padding-top: 50px;
+}
+.top p{
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    padding-top:10px ;
+}
+.went{
+    display: flex;
+    width: 100%;
+    height: 350px;
+    padding-top: 50px;
+    justify-content: center;
+}
+.wert{
+    width: 20%;
+    height: 300px;
+    border-radius: 20px;
+    margin-left: 20px;  
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px;
+}
+
+.card-image{
+    height: 140px;
+    margin-bottom: 20px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+.wert:hover{
+    background-color: rgb(62,62,62);
+    color: white;
+    cursor: pointer;
+    transition:ease in all;
+    transform: scale(1.03);
+}
+.dot{
+    background-image: url('/aa1.png');
+}
+.dot1{
+    background-image: url('/aa2.png');
+}
+.dot2{
+    background-image: url('/aa3.png');
+}
+.dot3{
+    background-image: url('/aa4.png');
+}
+.wert p{
+    padding : 5px;
+}
+.wert h5{
+    text-align: center;
+}
+.codd{
+    background-image: url('/qq1.png');
+}
+.cod{
+    background-image: url('/qq2.png');
+}
+.cod2{
+    background-image: url('/qq3.png');
+}
+.cod3{
+    background-image: url('/qq4.png');
+}
+.dog{
+    width: 100%;
+    height: 700px;
+    background-color: rgb(253, 248, 255);
+    margin-top: 40px;
+}
+.mark{
+    background-image: url('/ark.png');
+    width: 50%;
+    height: 560px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin: auto;
+}
+.meet{
+    width: 100%;
+    height: 250px;
+    background-image: linear-gradient( to bottom, rgba(43, 141, 230), rgb(126, 128,239) );
+}
+.meet h1{
+    color: white;
+}
+#wwee{
+    background-color: white;
+    height: 600px;
+    width: 100%;
+}
+.vob{
+    height: 270px;
+    display: flex;
+    padding-top: 70px;
+}
+.parker{
+    height: 200px;
+    width: 40%;
+}
+.parker1{
+    height: 200px;
+    width: 70%;
+}
+.logo1{
+    font-size: 32px;
+    font-weight: 200;
+    width: 80%;
+    padding-left:30px ;
+    margin: auto;
+}
+.logo1 span{
+    color: rgb(111, 40, 40);
+}
+.test{
+    padding: 10px;
+    width: 400px;
+    padding-right: 20px;
+}
+.parker h5{
+    font-weight: 600;
+    font-size: 20px;
+    padding: 10px;
+    padding-left: 40px;
+}
+.parker ul li{
+    padding: 10px;
+    padding-left: 40px;
+}
+.subscribe{
+    width:100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.subscribe input{
+    padding: 20px 70px;
+    border-radius: 5px 0px 0px 5px;
+    border: 1px solid rgb(135, 61, 135);
+}
+.subscribe button{
+    padding: 20px 70px;
+    background-color: rgb(141, 53, 167);
+    color: white;
+    border-radius: 0px 5px 5px 0px;
+    border: none;
+}
+.qad{
+    text-align: center;
+    padding-top: 30px;
+}
+.badge{
+    width: 300px;
+    height: 40px;
+    display: flex;
+    margin: 0 auto;
+}
+.badge-1{
+    width: 50px;
+    border-radius: 10px;
+    margin-top: 20px;
+    height: 50px;
+    margin-left: 10px;
+}
+.isad{
+    background-image: url('/iglogon.png');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.isad1{
+    background-image: url('/twtlogo.png');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.isad2{
+    background-image: url('/tiklogo.png');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.isad3{
+    background-image: url('/twtlogo.png');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.last{
+    display: flex;
+   justify-content: center;
+   padding-top: 50px;
+   width: 95%;
+}
+.last a{
+    padding-left: 20px;
+}
+
+
+@media screen and (max-width:500px) {
+.header{
+    display: none;
+    }
+    body{
+        font-size: 20px;
+    }
+    .dog{
+       height: 550px;
+    }
+    .meet{
+        height: 200px;
+    }
+.container h1{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 20px;
+    }
+     .container h3{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-weight: 50;
+    }
+    .drop{
+        width: 250px;
+        padding: 0;
+        padding-top: 20px;
+    }
+    .drop1{
+    padding: 10px;
+    width: 47%;
+    border-radius: 10px;
+    border: none;
+    }
+    .drop2{
+    padding: 10px;
+    width: 50%;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+    }
+    .drop2:hover{
+    background-color: black;
+    color: white;
+    }
+    .circle{
+        display: none;
+    }
+    .container{
+    width: 500px;
+    padding: 50px 20px 60px 20px;
+    }
+    .section2 h1{
+    color:black;
+    font-size: 19px;
+    font-weight: 600;
+    width: 50%;
+    position: relative;
+    bottom:70px;
+    padding: 0;
+    }
+    .image{
+    display: none;
+    }
+    .dove .pon{
+    padding-left: 130px;
+    width: 400px;
+    }
+    .dove h2{
+    width: 400px;
+   
+    text-align: center;
+    padding-left: 25px;
+    font-size: 20px;
+    }
+    .dove p{
+    padding-top: 20px;
+    width:380px;
+    text-align: center;
+    font-size: 17px;
+    padding-left:30px;
+    }
+    .card{
+    width: 200px;
+    margin-left: 100px;
+    padding-left: 35px;
+    }
+    .card1:hover{
+    background-color: rgb(129, 30, 129);
+    color: white;
+    }
+    .section2{
+        height: 500px;
+    }
+    .section3{
+        height: 700px;
+    }
+       
+    .window1{
+    background-image: url('/bard.png');
+    width: 370px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size:90%;
+    background-position: 25% 25%;
+    top: 350px;
+    position: absolute;
+    left: 50px;
+      
+    }
+    .window{
+    height: 700px;
+    position: relative;
+    }
+    .board{
+    width: 400px;
+    margin-right: 50px;
+    
+    }
+    .board h5 {
+    color: rgb(194, 189, 189);
+    width: 300px;
+    margin-left: 70px;
+    padding-top: 60px;
+    }
+    .board h2{
+    width: 330px;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 30px;
+    }
+    .board p{
+    width: 390px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.5em;
+    padding-right: 30px;
+    }
+    .image2{
+    display: none;
+    }
+    .capture{
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    }
+    .inter{
+    background-image: url('/bard.png');
+    width: 370px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size:90%;
+    background-position: 25% 25%;
+    top: 350px;
+    position: absolute;
+    left: 50px;
+    }
+    .top h1{
+    font-size: 20px ;
+    text-align: center;
+    }
+    .top p{
+    font-size: 15px;
+    line-height: 1.5em;
+    }
+    .card-image{
+        height: 100px;
+        width: 200px;
+    }
+    .wert{
+        height: 270px;
+        width: 200px;  
+    }
+    .went{
+    flex-wrap: wrap;
+    height: 700px;
+    padding-right: 20px;
+    }
+   .wert p{
+    font-size: 14px;
+   }
+   .clad{
+    margin-top: 20px;
+   }
+   .wert h5{
+    font-size: 15px;
+   }
+   .mark{
+    background-image: url('/ark.png');
+    width: 370px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size:90%;
+    background-position: 25% 25%;
+    margin-top: 50px;
+   }
+   .vob{
+    flex-wrap: wrap;
+   }
+   .logo1{
+    font-size: 20px;
+    padding-left: 180px;
+    width: 400px;
+   }
+   .test {
+    width: 500px;
+   }
+   .parker h5{
+    font-size: 20px;
+   }
+   .parker ul li{
+    font-size: 16px;
+   }
+   .subscribe{
+   position: relative;
+   top: 530px;
+   }
+   .subscribe input{
+    padding: 15px 10px;
+    border-radius: 5px 0px 0px 5px;
+    border: 1px solid rgb(135, 61, 135);
+}
+.subscribe button{
+    padding: 15px 30px;
+    background-color: rgb(141, 53, 167);
+    color: white;
+    border-radius: 0px 5px 5px 0px;
+    border: none;
+}
+   .qad{
+    font-size: 15px;
+    position: relative;
+    top: 530px;
+    font-size: 20px;
+    width:430px;
+    text-align: center;
+    padding-left: 65px;
+   }
+   .badge{
+    margin-top: 570px;
+    width: 210px;
+   }
+   footer{
+   height: 1000px;
+   }
+   .last{
+    margin-top: 50px;
+   }
+   .paki{
+    margin-bottom: 60px;
+    width: 500px;
+    text-align: center;
+   }
+   .pakin{
+    width: 500px;
+    text-align: center;
+   }
+   /* Style the navigation menu */
+.topnav {
+    overflow: hidden;
+    background-color:rgb(43, 141, 230);
+    position: relative;
+    width: 500px;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+   width: 40px;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: black;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color: rgb(34, 30, 30);
+    color: black;
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    color: white;
+  }
+  .topnav{
+    display: block;
+  }
+  .active span{
+    color: rgb(174, 77, 174);
+    font-size: 20px;
+    font-weight: 700;
+  }
+}
+@media screen and (max-width:768px){
+    .header{
+        display: none;
+    }
+    body{
+        font-size: 20px;
+        width: 768px;
+    }
+    .container{    
+        padding-right: 180px;
+    }
+    .container h1{
+        width: 738px;
+    }
+    .container h3{
+        width: 738px;
+    }
+    .drop{
+        width: 740px;
+    }
+    .circle{
+        background-image: url('/dash.gif');
+        width: 40%;
+        height: 300px;
+        position: relative;
+        background-repeat: no-repeat;
+        background-size:100%;
+        left: 230px;
+        bottom: 70px;
+        
+    }
+    .section2 h1{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
